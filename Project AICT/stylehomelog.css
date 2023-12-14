@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background: linear-gradient(to right,black,darkblue,blue,lemonchiffon,red,darkred,black);
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
     color:#ffc300;
     height:1024px;
     margin-left:3px;
@@ -79,9 +79,9 @@ p{
     margin-right: 1%;
 }
 .signinbtn:hover{
-    transform: scale(1.1);
     color:white;
     background-color: #ffc300;
+    
     
 }
 .logo{
@@ -160,6 +160,7 @@ text-align:right;
 }
 .genre:hover{
     transform: scale(1.1);
+    box-shadow: 0 0 100px #ffc300;
 }
 .ribbon{
     text-align:center;
